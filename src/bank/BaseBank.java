@@ -1,13 +1,15 @@
 package bank;
 
+import interfaces.BankInterface;
+
 /**
  * Created by Evgeniy on 24.03.2016.
  */
 public class BaseBank implements BankInterface {
 
-    String name;
+    private String name;
 
-    String creditDescription;
+    private String creditDescription;
 
     public void setName(String name) {
         this.name = name;
