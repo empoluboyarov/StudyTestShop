@@ -5,7 +5,9 @@ import interfaces.BankInterface;
 /**
  * Created by Evgeniy on 24.03.2016.
  */
-public class BaseBank implements BankInterface {
+public abstract class BaseBank implements BankInterface {
+
+    public static int requestCount;
 
     private String name;
 
@@ -20,7 +22,7 @@ public class BaseBank implements BankInterface {
     }
 
     @Override
-    public void checkInfo() {
+    public void checkInfo() {requestCount++;
 
     }
 

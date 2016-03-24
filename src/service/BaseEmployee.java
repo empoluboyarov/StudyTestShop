@@ -6,7 +6,7 @@ import interfaces.EmployeeInterface;
 /**
  * Created by Evgeniy on 24.03.2016.
  */
-public class BaseEmployee implements EmployeeInterface {
+public abstract class BaseEmployee implements EmployeeInterface {
 
     private String name;
 

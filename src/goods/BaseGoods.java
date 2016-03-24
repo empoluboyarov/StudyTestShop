@@ -6,7 +6,7 @@ import interfaces.GoodsInterface;
 /**
  * Created by Evgeniy on 24.03.2016.
  */
-public class BaseGoods implements GoodsInterface{
+public abstract class BaseGoods implements GoodsInterface{
 
     private double price;
     private boolean hasGuarantee;

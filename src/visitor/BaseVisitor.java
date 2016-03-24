@@ -7,7 +7,7 @@ import interfaces.VisitorInterface;
  */
 
 
-public class BaseVisitor implements VisitorInterface{
+public abstract class BaseVisitor implements VisitorInterface{
 
     private String name;
 
