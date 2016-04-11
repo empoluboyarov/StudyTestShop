@@ -1,5 +1,6 @@
 package department;
 
+import com.sun.org.apache.xpath.internal.SourceTree;
 import interfaces.DepartmentInterface;
 import interfaces.EmployeeInterface;
 import interfaces.GoodsInterface;
@@ -10,6 +11,7 @@ import java.util.ArrayList;
  * Created by Evgeniy on 24.03.2016.
  */
 public abstract class BaseDepartment implements DepartmentInterface {
+
 
     private String name;
 
